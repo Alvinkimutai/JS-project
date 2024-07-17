@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+/* Header styling */
+header {
+    background-image: url('https://mg.co.za/wp-content/uploads/2019/03/07bd0c9d-00-olico-maths-pupils-score-top-marks-in-matric.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    position: relative; /* Ensure relative positioning for absolute children */
+    height: 400px; /* Adjust height as needed */
+}
+
+header ul {
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #2f03f5;
+    font-size: 1.5em;
+}
+
+header ul li:hover {
+    text-decoration: underline;
+}
+
+.header-content {
+    max-width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-right: 20px;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: rgb(236, 3, 3);
+}
+
+.header-content p {
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+}
+
+/* Main content styling */
+.main-content {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-content .text {
+    flex: 1;
+    padding: 20px;
+}
+
+.main-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.main-content button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #b90caa;
+    color: #ffffff;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.main-content button:hover {
+    background-color: #00ff15;
+}
+
+/* Footer styling */
+footer {
+    background-color: rgb(255, 208, 0);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

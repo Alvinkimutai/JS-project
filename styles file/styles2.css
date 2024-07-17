@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Black Ops One';
+    background-color: #f0f0f0;
+}
+
+.arithmetic{
+    padding: 20px;
+    overflow: hidden;
+    background-color: #fea949; 
+}
+
+.arithmetic h1{
+    float: left;
+    margin-left:10%;
+    color: white;
+}
+
+.arithmetic ul{
+    list-style-type:none;
+    font-size: 20px;
+    margin-left: 60%;
+}
+
+.arithmetic li{
+    margin-top: 10px;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+.arithmetic a{
+    text-decoration: none;
+    color: rgb(7, 3, 238);
+}
+
+.current a::after{
+    content: '_';
+    background-color: rgb(6, 80, 238);
+    font-size: 4px;
+    display: block;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 82% 18%;
+}
+
+.equation{
+    font-size: 69px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.equation h1{
+    display: inline;
+    padding: 20px;
+}
+
+.answer-options{
+    font-size: 69px;
+    margin-right: 10px;
+}
+
+.answer-options h1{
+    cursor: pointer;
+    color: rgb(33, 189, 209);
+    border-radius: 3px;
+    margin-top: 10px;
+    text-align: center;
+    width:100%;
+}
+
+#option1{
+    background-color: #e22911;
+    transition: 1s;
+}
+
+#option1:hover{
+    color: #e22911;
+    background-color: rgb(33, 189, 209);
+}
+
+#option2{
+    background-color: #e2cd11;
+    transition: 1s;
+}
+
+#option2:hover{
+    color: #e2cd11;
+    background-color: rgb(33, 189, 209);
+}
+ 
+#option3{
+    background-color: #1114e2;
+    transition: 1s;
+}
+#option3:hover{
+    color: #1114e2;
+    background-color: rgb(33, 189, 209);
+}
