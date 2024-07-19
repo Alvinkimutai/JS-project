@@ -19,6 +19,11 @@ body{
     margin-left:10%;
     color: white;
 }
+.arithmetic h2 a{
+    margin-top: 10px;
+    color: #1411e2;
+    padding: 0 20px 0 20px;
+}
 
 .arithmetic ul{
     list-style-type:none;
