@@ -2,10 +2,22 @@
   "name": "js-project",
   "version": "1.0.0",
   "description": "learning html and css",
-  "main": "random.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvinkimutai/JS-project"
   },
   "author": "Alvin Kimutai",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alvinkimutai/JS-project/issues"
+  },
+  "homepage": "https://github.com/Alvinkimutai/JS-project#readme",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
 }
