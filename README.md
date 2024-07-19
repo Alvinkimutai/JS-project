@@ -7,3 +7,4 @@
 ## link to the deployed website ##
 
 > This is the link to the deployed web: https://alvinkimutai.github.io/JS-project/
+> The project details video is located in the git hub repository named as "phase one recording for Alvin"
