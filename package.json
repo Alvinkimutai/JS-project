@@ -1,0 +1,11 @@
+{
+  "name": "js-project",
+  "version": "1.0.0",
+  "description": "learning html and css",
+  "main": "random.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alvin Kimutai",
+  "license": "ISC"
+}
